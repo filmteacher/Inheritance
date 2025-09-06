@@ -1,11 +1,11 @@
 import java.util.ArrayList;
 
-public class Main {
+public class InheritanceDemo {
     public static void main(String[] args)
     {
 
 //1. Create 3 workers and 3 salaryWorker instances and add them to an ArrayList<Worker>.
-// Pick reasonable hourly rates for the workers and reasonable salary rates for the salaryworkers.
+// Pick reasonable hourly rates for the workers and reasonable salary rates for the salaryWorkers.
 // Of course all workers have names, ids, and YOBs.
         ArrayList<Person> Workers = new ArrayList<>();
 
@@ -25,8 +25,8 @@ public class Main {
         Workers.add(salaryWorker3);
 
 //2. Write a loop that simulates 3 weekly pay periods.
-// Week 1 is a 40 hour week.
-// For week 2  assume it is crunch time and everyone worked 50 hours.
+// Week 1 is a 40-hour week.
+// For week 2 assume it is crunch time and everyone worked 50 hours.
 // Week 3 is back to normal with 40 hours.
 // Generate a display showing the weekly pay for each of the workers for each week in a reasonable tabular format.
         for (int i = 1; i <= 3; i++)
